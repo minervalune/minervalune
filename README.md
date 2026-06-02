@@ -1,71 +1,86 @@
 # 🌙 Minerva
 
-> *"The infrastructure you don't see is the infrastructure that keeps running."*
+> *People over process. Documentation over memory. Verification over trust.*
 
-Senior Systems Engineer & Digital Transformation Consultant specializing in government technology and public-sector infrastructure at [SICOTI](https://sicoti.com).
-
-I operate across the entire stack — from kernel tuning to frontend review — because infrastructure doesn't respect boundaries, and neither do outages.
+I'm a **Senior Systems Engineer** specializing in public-sector technology at [SICOTI](https://sicoti.com). I design, build, and operate infrastructure that governments actually depend on — which means failure isn't a learning opportunity, it's a crisis.
 
 ---
 
-## Systems Engineering
+## The Stack I Live In
 
-- **Linux & Shell** — Kernel diagnostics, process supervision (s6, systemd), shell tooling for production, resource isolation, cgroups, namespace debugging
-- **Docker & Containers** — Multi-service Compose stacks, volume lifecycle, healthcheck design, cross-project networking, security profiles, image optimization
-- **Databases & Messaging** — MongoDB replica sets & auth, PostgreSQL tuning, Redis caching, RabbitMQ topology & dead-letter handling
-- **CI/CD** — GitHub Actions, branch strategies, PR lifecycle, automated testing, rollback procedures, deployment orchestration
-- **Infrastructure as Code** — Secrets management (Doppler, Vault), environment parity, configuration drift detection, reprovisioning automation
-- **Security** — Zero-trust principles, token/PAT lifecycle, SSH key rotation, AppArmor/SELinux profiles, gov-sector compliance, audit logging
-- **Networking** — SSH tunneling, reverse proxies, TLS termination, DNS resolution, firewall rules, VPN troubleshooting
+### Systems & Infrastructure
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
+![SSH](https://img.shields.io/badge/SSH-black?style=flat&logo=openssh&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
 
-## Software Development
+### Data & Messaging
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=rabbitmq&logoColor=white)
 
-- **Architecture** — Monorepo design, service boundaries, API contracts, event-driven patterns, technical debt accounting, ADRs
-- **Python** — Automation, scripting, data pipelines, API integrations, testing frameworks, async patterns
-- **TypeScript & JavaScript** — React, Next.js, component architecture, state management, type-safe APIs
-- **Code Quality** — TDD, systematic debugging, pre-commit hooks, security scanning, review workflows
-- **Frontend** — Design system integration, accessibility, performance profiling, Storybook/Chromatic
+### Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
 
-## ML & AI Systems
+### CI/CD & Operations
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 
-I'm not a researcher. I'm the engineer who puts models in production and keeps them there.
+### ML & AI
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)
+![vLLM](https://img.shields.io/badge/vLLM-4A90D9?style=flat&logoColor=white)
 
-- **Serving & Inference** — vLLM, llama.cpp, quantization (GGUF, GPTQ), OpenAI-compatible APIs
-- **Pipelines** — RAG architectures, DSPy programs, vector stores, embedding workflows
-- **Operations** — Model registry, experiment tracking (W&), benchmarking (lm-eval), Hub management (HuggingFace)
-- **Evaluation** — Red-teaming, safety layers, guardrails, deployment gates
-
-## Data & Research
-
-- **Analysis** — Jupyter notebooks, pandas, exploratory data analysis, visualization pipelines
-- **Research** — arXiv paper discovery, normative/legal text analysis, RSS monitoring, market data
-- **Financial modeling** — Auditable workbooks, sensitivity tables, balance checks, named ranges
-
-## Communication & Leadership
-
-- **Technical writing** — Incident post-mortems, architecture decision records, documentation engineers actually read
-- **Cross-functional facilitation** — Translating between engineering, product, and non-technical stakeholders without losing precision
-- **Mentoring** — Guiding junior developers through codebase, architecture, and deployment practices
-- **GovTech context** — Policy-aware engineering, regulatory compliance, public-sector stakeholder management
+### Creative & Design
+![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Storybook](https://img.shields.io/badge/Storybook-FF4785?style=flat&logo=storybook&logoColor=white)
 
 ---
 
-## Philosophy
+## How I Actually Work
 
-```
-Verified   > Assumed
-Reversible > Optimized
-Documented > Implicit
-Stable     > Novel
-Secure     > Fast
-```
+I don't trust dashboards. I SSH in and look at the machine. I read man pages before Stack Overflow. I check `dmesg` before I check Slack.
 
-I read the official documentation before touching production. I never assume a service is healthy — I verify. I prefer decisions that can be undone tomorrow. I treat public-sector data with the gravity it deserves.
+When something breaks at 3 AM, I don't run to the nearest LLM. I read the logs, I reproduce the issue, I understand the root cause — and *then* I fix it. Permanently. Not with a workaround that becomes six months of debt.
 
-GovTech isn't about disruption. It's about **infrastructure that citizens trust** — systems that don't fail during elections, don't leak personal data, and don't break when policy changes. I build technology meant to outlast the political cycle that commissioned it.
+I write documentation because I've been burned by tribal knowledge too many times. I've seen teams lose weeks because one person left tribal knowledge in their head. That doesn't happen on my watch.
+
+I think in systems. Not services — *systems*. How they interact. How they fail. How failure cascades. How to make the blast radius small enough that it doesn't matter.
+
+---
+
+## What I Believe
+
+Good infrastructure is boring. If your ops team is bored, you're doing it right. The excitement should be in the product, not in firefighting.
+
+Security isn't a feature you add. It's the floor. Especially when you're handling citizen data, tax records, or anything that touches people's lives. "Move fast and break things" is not a strategy when the things you're breaking belong to the public.
+
+The best architecture decision is the one you can reverse next quarter. I don't optimize for today's problem — I optimize for next year's unknown.
+
+Nobody should need to ask me how something works. If they do, the documentation failed. Period.
+
+---
+
+## The Human Part
+
+I'm direct. I don't do corporate fluff. If something is broken, I say it's broken. If a deadline is unrealistic, I say so — with alternatives, not just complaints.
+
+I mentor because someone mentored me. Junior devs aren't a burden; they're the reason this industry survives. I take time to explain *why*, not just *what*.
+
+I care about the people who use what we build. Government software isn't for investors — it's for citizens. Real people who can't opt out. That matters.
 
 ---
 
 <p align="center">
-  <i>🌙 Infrastructure is invisible until it fails. I make sure it doesn't.</i>
+  Infrastructure is invisible until it fails.<br>
+  <i>🌙 I make sure it doesn't.</i>
 </p>
